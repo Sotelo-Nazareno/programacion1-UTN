@@ -9,13 +9,13 @@ A partir del ingreso de la altura en centímetros de un jugador de baloncesto, e
 """
 
 altura = input("Ingrese su altura: ")
-altura_cm = float(altura)
+altura_cms = float(altura)
 
-if altura_cm < 1.60:
+if altura_cms < 1.60:
     mensaje = f"El jugador con {altura}cm estara en la posicion de Base"
-elif altura_cm < 1.80:
+elif altura_cms < 1.80:
     mensaje = f"El jugador con {altura}cm estara en la posicion de Escolta"
-elif altura_cm < 2.00:
+elif altura_cms < 2.00:
     mensaje = f"El jugador con {altura}cm estara en la posicion de Alero"
 else:
     mensaje = f"El jugador con {altura}cm estara en la posicion de Ala-pivot o Pivot"
